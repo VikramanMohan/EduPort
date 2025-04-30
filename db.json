@@ -1,0 +1,25 @@
+{
+  "courses": [
+    {
+      "courseName": "ReactJs",
+      "description": "Single Page Application",
+      "price": "122000",
+      "duration": "30",
+      "id": "f30a"
+    },
+    {
+      "id": "f512",
+      "courseName": "HTML",
+      "description": "Structure of Website",
+      "price": "211232",
+      "duration": "20"
+    },
+    {
+      "id": "63f8",
+      "courseName": "CSS",
+      "description": "Styling Website",
+      "price": "2300",
+      "duration": "20"
+    }
+  ]
+}
