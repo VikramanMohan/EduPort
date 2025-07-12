@@ -1,11 +1,17 @@
+import PropTypes from 'prop-types';
 
-const Right = () => {
-  return (
-    <>
-        <input type="text" name="" id="" placeholder='Search' />
-        <img src="../../public/th.jpg" alt="" />
-    </>
-  )
-}
+const Right = ({ login }) => {
+    return (
+        <div>
+            {login && (
+                <p className="text-white">Welcome, user!</p>
+            )}
+        </div>
+    );
+};
 
-export default Right
+Right.propTypes = {
+    login: PropTypes.bool
+};
+
+export default Right;
